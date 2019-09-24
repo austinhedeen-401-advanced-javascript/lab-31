@@ -8,6 +8,8 @@ import Header from './components/header/header';
 
 import './site.scss';
 
+require('dotenv').config();
+
 function App() {
   return (
     <BrowserRouter>
